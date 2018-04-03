@@ -8237,3 +8237,51 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+body {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+p {
+  font-size: 1.4rem;
+}
+.header-bar {
+  background-color: #ccccff;
+  padding-bottom: 8px;
+}
+.sticky-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+}
+.sticky-nav a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}

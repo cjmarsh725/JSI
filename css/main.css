@@ -8268,9 +8268,10 @@ p {
   justify-content: space-around;
   width: 800px;
 }
-.sticky-nav a {
+.header-btn {
   font-size: 1.6rem;
-  text-decoration: none;
+  color: #5555ff;
+  cursor: pointer;
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
